@@ -7,5 +7,7 @@ const Event=()=>{
         <button onClick={fun}>Click</button>
         </>
     )
+
+    
 }
 export default Event
