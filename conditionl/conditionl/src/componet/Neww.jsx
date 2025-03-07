@@ -12,7 +12,7 @@ function Neww(){
     </button> <br /><br />
     <h1>{count}</h1>
     <button onClick={decrement}>-</button>
-    <button onClick={()=>setCount(count+1)}>+</button>
+    <button onClick={()=>setCount(count+1)}>++</button>
         </>
     )
 }
