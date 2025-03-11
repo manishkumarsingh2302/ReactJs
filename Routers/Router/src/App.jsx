@@ -12,13 +12,14 @@ import Contact from "./contact"
 function App(){
   return(
     <>
-    <Navbar />
+   
     <Routes>
+      <Route path="/"element={<Navbar/>}>
       <Route  index element={<Home/>}/>
       <Route path="/About" element={<About/>}/>
       <Route path="/Service" element={<Service/>}/>
       <Route path="/contact" element={<Contact/>}/>
-
+    </Route>
       
    </Routes>
  
